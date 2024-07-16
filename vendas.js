@@ -46,6 +46,7 @@ function puxarDadosDaPlanilha() {
 }
 
 function preencherDropdown(elemento) {
+    elemento.classList.add('form-select');
     elemento.innerHTML = '<option value="">Selecione um produto</option>';
 
     // console.log(GLOBAL_PRODUTOS);
