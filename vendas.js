@@ -103,6 +103,7 @@ function adicionarCampoProduto() {
     inputValorProduto.setAttribute('id', 'valorProduto');
     inputValorProduto.setAttribute('name', 'valorProduto');
     inputValorProduto.setAttribute('required', true);
+    inputValorProduto.classList.add('form-control');
 
     div2.appendChild(labelValorProduto);
     div2.appendChild(inputValorProduto);
